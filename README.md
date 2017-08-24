@@ -43,14 +43,23 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Answer:** [Enter your answer here in a paragraph or two].
 
+<<<<<<< HEAD
 It's actually not as hard as imagined! The hardest part is probably getting familiar with all those Android API. The approach is very similar to a web front-end design pattern. All those XML properties are just governing the positioning and styling of the elements like html and css, while the java part behaves like Javascript and Jquery.
+=======
+It's actually not as hard as imagined! The hardest part is probably getting familiar with all those Android API. The approach is very similar to a web front-end design pattern. All those XML properties are just governing the positioning and styling of the elements like html and css, while the java part behaves like Javascript and Jquery.
+>>>>>>> 98dd5df6dc51e3d8f017ab1c1c7bdd1e68376847
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
 **Answer:** [Enter your answer here in a paragraph or two].
 The ArrayAdapter is the mid layer between a Java ArrayList object and a Android UI element. It bridges users' interaction with the UI element (view) and translate those into arraylist manipulations. It is important because it translates the physical inputs from the users to the logical input that applications could listen to and react on.
+<<<<<<< HEAD
 The purpose of `convertView` in `getView` method is to ensure there's always a valid view element that got returned, so the behavior of the ArrayAdapter is consistent.
 
+=======
+The purpose of `convertView` in `getView` method is to ensure there's always a valid view element that got returned, so the behavior of the ArrayAdapter is consistent.
+
+>>>>>>> 98dd5df6dc51e3d8f017ab1c1c7bdd1e68376847
 ## Notes
 
 Describe any challenges encountered while building the app.
